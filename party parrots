@@ -25,8 +25,8 @@
         <img src='https://cultofthepartyparrot.com/parrots/hd/parrot.gif'</img src>
       </li>
       <li class='parrot'>
-        <span>Twins</span>
-        <img src='https://cultofthepartyparrot.com/parrots/twinsparrot.gif'</img src>
+        <span>Jedi</span>
+        <img src='https://cultofthepartyparrot.com/parrots/hd/jediparrot.gif'</img src>
       </li>
     
   </ul>
@@ -37,7 +37,6 @@
 </html>
 
 
-CSS
 body {
   background: rgb(81,197,255);
   background: linear-gradient(180deg, rgba(81,197,255,1) 2%, rgba(200,119,255,1) 23%, rgba(255,109,106,1) 48%, rgba(252,106,62,1) 66%, rgba(255,186,89,1) 87%, rgba(250,252,82,1) 100%);}
@@ -101,8 +100,10 @@ p {
 
 .parrot {
   width: 400px;
+  list-style: none;
 }
 
-.parrot {
-  list-style: none;
+.parrot > img {
+  width: 50%;
+  border-radius: 100%;
 }
