@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>UCLA Beekeeping</title>
+  <link href="https://fonts.googleapis.com/css?family=Righteous&amp;subset=latin-ext" rel="stylesheet">
+</head>
+<body>
+  <h1>Party Parrots at UCLA</h1>
+  <div class='slogan'>Let's get litty</div>
+  <nav>
+      <ol class='nav-main'>
+        <li><a href='#'>HOME</a></li>
+        <li><a href='#'>CALENDAR</a></li>
+        <li><a href='#'>CONTACT US</a></li>
+        <li><a href='#'>DONATE</a></li>
+      </ol>
+  </nav>
+  <h2>WE R WHO WE R</h2>
+  <p>and we can be whoever you want us to be</p>
+  <ul>
+      <li class='parrot'>
+        <span>OG</span>
+        <img src='https://cultofthepartyparrot.com/parrots/hd/parrot.gif'</img src>
+      </li>
+      <li class='parrot'>
+        <span>Twins</span>
+        <img src='https://cultofthepartyparrot.com/parrots/twinsparrot.gif'</img src>
+      </li>
+    
+  </ul>
+  <footer>
+     &copy; Cult of the Party Parrots &amp; Slack
+  </footer>
+</body>
+</html>
+
+
+CSS
+body {
+  background: rgb(81,197,255);
+  background: linear-gradient(180deg, rgba(81,197,255,1) 2%, rgba(200,119,255,1) 23%, rgba(255,109,106,1) 48%, rgba(252,106,62,1) 66%, rgba(255,186,89,1) 87%, rgba(250,252,82,1) 100%);}
+* {
+  font-family: righteous;
+    text-align: center;
+}
+h1 {
+  color: white;
+  font-style: 900;
+  text-align: center;
+  text-shadow: 0 0 8px rgba (0,0,0,0.25)
+}
+
+h2 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  color: white;
+  text-align: center
+}
+
+.slogan {
+  color: white;
+  text-align: center;
+  font-style: light;  
+}
+
+.nav-main {
+  font-style: 600;
+  list-style:none;
+  padding: 0;
+  text-align: center;
+  background-color: white;
+}
+
+.nav-main > li {
+  margin: 0;
+  display: inline-block;
+}
+
+.nav-main a {
+  text-decoration: none;
+  color: #51c5ff;
+  display: inline-block;
+  padding: 10px;
+  transition: all 0.2s; 
+}
+
+.nav-main a:hover {
+  background-color: #ca8fe0;
+  color: #ffffff;
+  font-style: strong;
+}
+
+.content {
+  margin: 20px;
+}
+
+.parrot {
+  width: 400px;
+}
+
+.parrot {
+  list-style: none;
+}
