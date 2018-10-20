@@ -1,0 +1,94 @@
+HTML
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>UCLA Beekeeping</title>
+  <link href="https://fonts.googleapis.com/css?family=Barlow:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+</head>
+<body>
+  <h1>Beekeeping at UCLA</h1>
+  <div class='slogan'> Save the bees! </div>
+  <nav>
+      <ol class='nav-main'>
+        <li><a href='#'>Home</a></li>
+        <li><a href='#'>Contact us</a></li>
+        <li><a href='#'>Donate</a></li>
+        <li><a href='#'>Adopt-A-Bee</a></li>
+      </ol>
+  </nav>
+  <h2>About us</h2>
+  <p>We are UCLA's official beekeeping club. Buzz! Buzz!</p>
+  <ul>
+      <li class='bee'>
+        <span>Barry</span>
+        <img src='https://d1xfgk3mh635yx.cloudfront.net/sites/default/files/styles/original/public/image/featured/1032868-abp-2017-celebrate-10-year-anniversary-dreamworks-animations-bee-movie.jpg?itok=ERz3J6UN'</img src>
+      </li>
+      <li class='bee'>
+        <span>Do I count as a bee?</span>
+        <img src='https://vignette.wikia.nocookie.net/transformers-forged-to-fight/images/4/4f/Bumblebee_featured.png/revision/latest?cb=20170830133133'</img src>
+  </ul>
+  <footer>
+     &copy; Bees United &amp; Gene Bee Block &amp; Transformers &amp; Bee Movie
+  </footer>
+</body>
+</html>
+
+
+
+
+
+CSS
+body {
+  background: rgb(236,201,32);
+background: linear-gradient(180deg, rgba(236,201,32,1) 0%, rgba(255,216,0,1) 56%, rgba(255,250,0,1) 100%);}
+* {
+  font-family: Roboto
+}
+h1 {
+  color: white;
+  font-style: 200i;
+  text-align: center;
+  text-shadow: 0 0 8px rgba (0,0,0,0.25)
+}
+
+.slogan {
+  text-align: center;
+  font-style: light;  
+}
+
+.nav-main {
+  list-style:none;
+  padding: 0;
+  text-align: center;
+  background-color: white;
+}
+
+.nav-main > li {
+  margin: 0;
+  display: inline-block;
+}
+
+.nav-main a {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  padding: 10px;
+  transition: all 0.2s; 
+}
+
+.nav-main a:hover {
+  background-color: #84b3ff;
+  color: #ffd800;
+  font-style: strong;
+}
+
+.content {
+  margin: 20px;
+}
+
+.bees {
+  width: 400px;
+  
+}
