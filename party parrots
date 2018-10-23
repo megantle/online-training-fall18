@@ -21,12 +21,12 @@
   <p>and we can be whoever you want us to be</p>
   <ul>
       <li class='parrot'>
-        <span>OG</span>
         <img src='https://cultofthepartyparrot.com/parrots/hd/parrot.gif'</img src>
+        <div>OG</div>
       </li>
       <li class='parrot'>
-        <span>Jedi</span>
         <img src='https://cultofthepartyparrot.com/parrots/hd/jediparrot.gif'</img src>
+        <div>JEDI</div>
       </li>
     
   </ul>
@@ -35,14 +35,12 @@
   </footer>
 </body>
 </html>
-
-
+---------
 body {
   background: rgb(81,197,255);
   background: linear-gradient(180deg, rgba(81,197,255,1) 2%, rgba(200,119,255,1) 23%, rgba(255,109,106,1) 48%, rgba(252,106,62,1) 66%, rgba(255,186,89,1) 87%, rgba(250,252,82,1) 100%);}
 * {
   font-family: righteous;
-    text-align: center;
 }
 h1 {
   color: white;
@@ -76,7 +74,7 @@ p {
 }
 
 .nav-main > li {
-  margin: 0;
+  margin: 100;
   display: inline-block;
 }
 
@@ -86,11 +84,13 @@ p {
   display: inline-block;
   padding: 10px;
   transition: all 0.2s; 
+
 }
 
 .nav-main a:hover {
   background-color: #ca8fe0;
   color: #ffffff;
+  font-size: 50px;
   font-style: strong;
 }
 
@@ -101,9 +101,32 @@ p {
 .parrot {
   width: 400px;
   list-style: none;
+  float: left;
+  position: relative;
+  padding: 10px;
+}
+
+.parrot > div {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 10px 20px;
 }
 
 .parrot > img {
-  width: 50%;
   border-radius: 100%;
+  width: 40%;
+}
+
+.parrot > div {
+  text-align: center;
+}
+
+footer {
+  padding-top: 20px;
+  clear: both;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 0.8em;
 }
